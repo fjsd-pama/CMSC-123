@@ -1,0 +1,51 @@
+bool isSafe(int M[ROW][COL], int row, int col){
+	if( row >= 0 && row < ROW && col => 0 && col < COL &&
+	M[i][j] == 1)
+		return 1;
+	return 0;
+}
+
+bool solveMazeUtil(int M[N][N], int x, int y, int sol[N][N]){
+	if (x==N-1 && y==N-1){ //base case?
+		sol[x][y] = 1;
+		return true;
+	}
+
+	if (isSafe(M, x, y) == true){
+
+		sol[x][y] = 1;
+		if ( solveMaze(M, x + 1, y, sol()) ) return true; //right
+
+		if ( solveMaze(M, x, y + 1, sol()) ) return true; //down
+
+		if ( solveMaze(M, x - 1, y, sol()) ) return true; //left
+
+		if ( solveMaze(M, x, y - 1, sol()) ) return true; //up
+
+		//backtrack daw ni (??)
+	
+		sol[x][y] = 0; //set as visited? no, nagreturn siya'g false, wala ngadto ang solution, ni backtrack daw
+		return false;
+	}
+
+	return false; //if wala na gyuy solution ??j
+
+}
+
+bool solveMaze(int M[N][N]){
+	int sol[N][N] = {0}; //set all to zero
+	if ( !solveMazeUtil(M, 0, 0, sol) ){
+		return false; //print the whole maze
+	}
+
+	print(sol); //print modified maze
+	return true;
+}
+
+void print( int sol[N][N] ){
+	for (int i = 0; i < N; i++){
+		for (int j = 0; j < N; j++){
+			printf(" %d", sol[i][j]); //print char man tu ato
+		}
+	}
+}
