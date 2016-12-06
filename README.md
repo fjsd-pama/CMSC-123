@@ -1,6 +1,2 @@
 # CMSC-123
-
-/**
-* by J.A. Pama
-*
-*/
+* The Fundamentals of Data Structures
