@@ -1,8 +1,3 @@
-/*Dear Sir,
-    Please disregard this. I don't intend to violate the rules. This is only for testing purposes. My TRUE output for this lab is at Krishia Ranque Bello's account. Please don't be angry. (Huhu)
-    I failed to copy and paste it because I was too desperate to get the solution. My emotions got me. Lesson learned. Thank you so much.
-'*/
-
 #include <iostream>
 #include <array>
 
@@ -132,6 +127,5 @@ int main() {
         }
 
     }
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     return 0;
 }
