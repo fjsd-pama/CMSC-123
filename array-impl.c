@@ -1,11 +1,7 @@
 #include <iostream>
-
-#include <iostream>
 #define MAX 20
 
 using namespace std;
-
-
 class array{
     private:
         int items[MAX];
