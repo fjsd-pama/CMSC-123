@@ -1,8 +1,5 @@
 /**
 * Created by Jose Arniel J. Pama, 11/27/16
-* What I learned: There are things in life that are not meant to be solved through trial and error.
-* I'm just glad I'm not a doctor, and programming is not part of those things. Else, my errors could
-* have killed a life. Still, I aim for less trials and errors as I progress.
 **/
 
 #include <iostream>
