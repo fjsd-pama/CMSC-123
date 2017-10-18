@@ -1,8 +1,6 @@
 #include <iostream>
 
 using namespace std;
-
-
 class vector {
     private:
         int size, max;
