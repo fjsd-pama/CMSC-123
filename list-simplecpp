@@ -32,11 +32,7 @@ class list{
        
         bool insert(T,int);
         T get(int); //return node at that pos??
-        int getSize(){return size;}
-     /*   bool remove(int);
-        bool set(T,int);
-        
-     */
+        int getSize(){return size;
 };
 
 template <class T>
@@ -111,7 +107,6 @@ void display( list<int> given ){
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int numTest; //number of test cases
     int x; //position
     int y; //element to insert
