@@ -15,7 +15,7 @@ int linearSearch( int A[ ] ){
 	return -1;
 }
 
-//The better, "more efficitent" method
+//The better, "more efficient" method
 //Note "high" must be no. of items - 1 (e.g. instead of 10, accept 9)
 int binarySearch( int A[ ], size_t low, size_t high ){
 	int middle = 0;
@@ -39,7 +39,7 @@ int binarySearch( int A[ ], size_t low, size_t high ){
 int main( ){
 	int A[10];
 
-	//NEVERMIND, just some test cases
+	//some test cases
 	// int AB[10] = {-10, -3, -1, 3, 7, 9, 10, 11, 12, 14};
 	// int CD[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 	// int ED[10] = { -20, -6, -3, 0, 2, 3, 6, 8, 9, 10 };
